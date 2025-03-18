@@ -13,7 +13,7 @@ function agregarAmigo() {
     nameList.push(recibirNombre);
     inputNombre.value ="";   
     inputNombre.focus();
-    listaAmigos();
+    listarNombres();
 }
 
 function listarNombres() {
